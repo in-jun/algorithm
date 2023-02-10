@@ -2,8 +2,8 @@
 
 # Online-Judge
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlswns)](https://solved.ac/dlswns/)
-<img src="http://mazandi.herokuapp.com/api?handle=dlswns&theme=dark"/>
+[![](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlswns)](https://solved.ac/dlswns/)
+![](http://mazandi.herokuapp.com/api?handle=dlswns&theme=dark)
 
 #
 
