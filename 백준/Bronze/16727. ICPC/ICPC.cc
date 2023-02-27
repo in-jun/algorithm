@@ -9,11 +9,11 @@ int main()
     if ((p1 + p2) == (s1 + s2))
     {
         if (p1 == s2)
-            cout << ("Penalty");
+            cout << "Penalty";
         else if (p1 > s2)
-            cout << ("Esteghlal");
+            cout << "Esteghlal";
         else
-            cout << ("Persepolis");
+            cout << "Persepolis";
     }
     else if ((p1 + p2) > (s1 + s2))
         cout << "Persepolis";
