@@ -1,7 +1,5 @@
 <div align="center">
 
-# Online-Judge
-
 ![](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=dlswns)
 
 #
