@@ -2,8 +2,7 @@
 
 # Online-Judge
 
-[![](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlswns)](https://solved.ac/dlswns/)
-![](http://mazandi.herokuapp.com/api?handle=dlswns&theme=dark)
+![](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=dlswns)
 
 #
 
