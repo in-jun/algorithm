@@ -17,9 +17,7 @@ int main()
     int m, n;
     cin >> m >> n;
     for (int i = m; i <= n; i++)
-    {
         if (prime(i))
             cout << i << '\n';
-    }
     return 0;
 }
