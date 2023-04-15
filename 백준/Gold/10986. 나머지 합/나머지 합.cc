@@ -24,7 +24,7 @@ int main()
         arr2[arr1[i]]++;
     }
     for (int i = 0; i < m; i++)
-        count += !!arr2[i] * (arr2[i] * (arr2[i] - 1) / 2);
+        count += arr2[i] * (arr2[i] - 1) / 2;
     cout << count;
     return 0;
 }
