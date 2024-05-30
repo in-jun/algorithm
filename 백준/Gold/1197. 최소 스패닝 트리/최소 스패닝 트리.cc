@@ -23,17 +23,18 @@ int find_root(int x)
     return u[x] = find_root(u[x]);
 }
 
-void union_root(int x, int y)
+bool union_root(int x, int y)
 {
     x = find_root(x);
     y = find_root(y);
 
     if (x == y)
     {
-        return;
+        return false;
     }
 
     u[max(x, y)] = min(x, y);
+    return true;
 }
 
 int main()
@@ -64,14 +65,10 @@ int main()
     {
         auto [c, f, s] = edges[i];
 
-        if (find_root(f) == find_root(s))
+        if (union_root(f, s))
         {
-            continue;
+            arr.push_back(c);
         }
-
-        arr.push_back(c);
-
-        union_root(f, s);
 
         if (arr.size() == v - 1)
         {
@@ -79,12 +76,12 @@ int main()
         }
     }
 
-    int count = 0;
+    int sum = 0;
     for (int n : arr)
     {
-        count += n;
+        sum += n;
     }
 
-    cout << count;
+    cout << sum;
     return 0;
 }
